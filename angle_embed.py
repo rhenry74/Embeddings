@@ -50,11 +50,11 @@ def getVectorFroModel(phrase):
         ,'token_type_ids': token_type_ids}
    
      try:
-                print('about to run')
+                #print('about to run: ' + phrase)
                 outputs = session.run(None, shape)
-                print('run success')
+                #print('run success')
                 v1 = outputs[0][0][0]
-                print(v1)
+                #print(v1)
                 v1_norm = v1 / numpy.linalg.norm(v1)
                 return v1_norm
      except Exception as e:
