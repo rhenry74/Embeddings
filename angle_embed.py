@@ -60,8 +60,6 @@ def getVectorFroModel(phrase):
      except Exception as e:
                 print("There was an error: ", e)     
 
-     
-
 app = Flask(__name__)
 
 @app.route("/")
