@@ -10,6 +10,7 @@ ipucachekey/
 model.onnx
 model_quantized.onnx
 ort_config.json
+voe-0.1.0-cp39-cp39-win_amd64.whl
 
 # Distribution / packaging
 lib/
